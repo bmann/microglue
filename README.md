@@ -2,6 +2,10 @@
 
 A small glue API server to create a micropub endpoint that can publish to Jekyll and other static sites via git
 
+# Bounty
+
+The intention is to post a bounty for the initial build out / base features of the microglue server.
+
 # Micropub to Git Server
 
 [micro.blog](http://micro.blog) is a decentralized [micro blog](https://en.wikipedia.org/wiki/Microblogging) / [tumblelog](https://kottke.org/05/10/tumblelogs)  service. You sign up at the centralized server and it manages a global namespace for accounts (e.g. @boris is at [micro.blog/boris](http://micro.blog/boris)).
@@ -16,17 +20,11 @@ Rather than running a single API server that has to be supported, we want to mak
 
 ## Base Features
 
+See the [Base Features milestone](https://github.com/bmann/microglue/milestone/1)
+
 * micro.blog compatible Micropub endpoint
 * Github authentication
 * Jekyll templates with default [front matter](https://jekyllrb.com/docs/frontmatter/)
-    * Title
-    * Date
-    * Layout
-    * Permalink
-    * Category
-    * Categories
-    * Tags
-    * Published
 * Deploy to Heroku configuration
 
 ## Extended Features
