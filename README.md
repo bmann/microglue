@@ -27,10 +27,15 @@ See the [Base Features milestone](https://github.com/bmann/microglue/milestone/1
 * Jekyll templates with default [front matter](https://jekyllrb.com/docs/frontmatter/)
 * Deploy to Heroku configuration
 
+The extended features should get turned into issues with longer descriptions.
+
 ## Extended Features
 
 ### Static Site Supported
 * Configurable templates per blog / per post type
+
+### Indieweb++
+* Catch [Webmentions from Micro.blog](http://help.micro.blog/2017/webmention/) -- maybe write to a ```_data``` file?
 
 ### Deployment targets
 * Amazon Lambda
